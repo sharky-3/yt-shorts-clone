@@ -47,7 +47,7 @@
                 <div class="short-actions">
                     <button class="like-btn" data-id="">
                         <span class="heart">♥</span>
-                        <span class="like-count">0</span>
+                        <span class="l  ike-count">0</span>
                     </button>
                     <button class="comment-toggle" data-id="">
                         <img src="assets/icons/message.png" alt="">
