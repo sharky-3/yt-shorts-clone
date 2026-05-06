@@ -49,7 +49,9 @@
                         <span class="heart">♥</span>
                         <span class="like-count">0</span>
                     </button>
-                    <button class="comment-toggle" data-id="">💬</button>
+                    <button class="comment-toggle" data-id="">
+                        <img src="assets/icons/message.png" alt="">
+                    </button>
                 </div>
             </div>
             <div class="comments-panel" style="display:none">
@@ -57,7 +59,9 @@
                 <?php if ($user): ?>
                 <form class="comment-form">
                     <input type="text" placeholder="Add a comment…" maxlength="300">
-                    <button type="submit">Post</button>
+                    <button type="submit">
+                        <img src="assets/icons/submit.png" alt="">
+                    </button>
                 </form>
                 <?php endif; ?>
             </div>

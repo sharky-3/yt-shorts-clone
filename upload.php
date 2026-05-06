@@ -25,7 +25,6 @@
                 if (!move_uploaded_file($file['tmp_name'], $dest)) {
                     $error = 'Could not save file.';
                 } else {
-                    // Generate thumbnail with FFmpeg (if available)
                     $thumb = null;
                     $thumbFile = 'thumbs/' . $filename . '.jpg';
                     $thumbPath = UPLOAD_DIR . $thumbFile;
@@ -62,7 +61,6 @@
     <!-- ── [[ Navigation ]] ──────────────────────────────────────────────────── -->
 
     <nav class="navbar">
-        <a href="/index.php" class="logo">🎬 Shorts</a>
         <a href="/index.php" class="btn btn-ghost">← Back</a>
     </nav>
 
